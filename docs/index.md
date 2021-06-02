@@ -24,3 +24,7 @@ This is a Java libray available on our Internal Artifact Repository
   // result = 5
 
 ```
+
+---
+
+Made with ❤️  by 👨‍💻 
