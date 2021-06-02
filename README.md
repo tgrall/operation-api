@@ -13,5 +13,3 @@ A powerful library to do some complex operations
 
 [Documentation powered by GitHub Pages](https://fluffy-invention-f46995f1.pages.github.io/)
 
-
----
