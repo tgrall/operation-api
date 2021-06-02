@@ -1,0 +1,22 @@
+version: 2
+
+registries:
+  maven-github:
+    type: maven-repository
+    url: https://maven.pkg.github.com/tgrall-octodemo
+    username: tgrall
+    password: ${{secrets.MY_GITHUB_PERSONAL_TOKEN}}
+    
+updates:
+
+  # maintain dependencies for Java applications
+  - package-ecosystem: "maven"
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
