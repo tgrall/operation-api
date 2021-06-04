@@ -47,3 +47,6 @@ jobs:
             -Dgithub.repository="${{ steps.build_params.outputs.github_repository }}"
         shell: bash
 
+      - name: Publish Test Report
+        if: ${{ always() }}
+        uses: scacap/action-surefire-report@v1
