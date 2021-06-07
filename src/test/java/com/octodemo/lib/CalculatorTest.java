@@ -18,7 +18,7 @@ public class CalculatorTest
     void subtraction() {
         assertEquals(2, calculator.sub(4, 2));
         assertEquals(0, calculator.sub(2, 2));
-        assertEquals(10, calculator.sub(3, 2));
+        assertEquals(1, calculator.sub(3, 2));
     }
 
 
