@@ -1,6 +1,5 @@
 package com.octodemo.lib;
 
-import jdk.javadoc.internal.doclets.formats.html.resources.standard;
 
 /**
  * Hello world!
