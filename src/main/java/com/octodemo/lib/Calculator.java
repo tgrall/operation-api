@@ -2,7 +2,7 @@ package com.octodemo.lib;
 
 /**
  * Hello world!
- * for TC
+ * 
  */
 public class Calculator
 {
