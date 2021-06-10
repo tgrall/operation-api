@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build with Maven
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout
