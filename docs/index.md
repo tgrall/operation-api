@@ -27,4 +27,4 @@ This is a Java libray available on our Internal Artifact Repository
 
 ---
 
-Made with ❤️  by 👨‍💻 
+Made with ❤️  by 👨‍💻  -- from Nantes!!! 
