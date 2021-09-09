@@ -6,7 +6,12 @@ package com.octodemo.lib;
  */
 public class Calculator
 {
+
+    private String greetings = "Welcome to the Calculator API";
+
+
     public int add(int a, int b) {
+        System.out.println( greetings.toUpperCase() );
         return a + b;
     }
 
